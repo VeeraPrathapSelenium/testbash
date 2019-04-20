@@ -1,0 +1,141 @@
+1.Insight into BDD
+2.Why Cucucmber
+3.Cucumber integration with selenium
+4.Framework with Cucmber
+5.GIT-Maven-Jenkins Instalation
+
+
+Precondition of BDD
+
+1.Must have knowledge on Java or any one programming language
+2.Must have knowledge on Selenium
+3.Must have knowledge on JUnit or TestNG
+
+
+Why BDD and What is meant by BDD?
+
+Behaviour driven development
+
+this concept is introduced , with main focus of to test an application with repsect to the behaviour.
+
+User must pass some input to the application and needs to verify the behiour of the application is asper the expectation or not
+
+so this concept helps a lot for doing UAT Testing and end user testing
+
+The Business is more focus in the application behiour , and they are more focused ontheutlization of teh application by the end user.
+
+They know weel about the scnarios that will be used in the real market by the enduser
+
+
+In Fact the QA Team will also perform testing , but it is limited with only the techincal testing alone, but they might fail in catching up the business scenarion and how an enduser will test an application
+
+so there will be defnietly a challenge by the QA in order to identify what  to test and how can the testing scenarios will get accdepted by teh business team in the pahse of UAT
+
+
+There is a high change of bug finding by the business team while they do UAT or end user testing..
+
+
+Also the Dev team will never do a proper testing while they the UNIT Level Testing.
+They are not good in writing testcase tahtw hich cover whole systema as how the QA do.
+
+
+As per the above there is chalenge for the both QA team and Dev team to identify , how the application willbetest by the business team and ad what scenario does really the end user is required.
+
+if these scenarios are known to the team little erlier it will be easy for then to arrest theh bugs in early stage only.
+
+
+Moreover if we perform automation testing also, anf if we try to show the work progress to the business team also, it is not countable and they are not techically guided peaple.
+
+
+There a vaccum available betwee Business team and QA team and Dev team.
+
+
+
+So it is time to make every to be on same stream line.
+
+to do this BDD-- Cucumber is introduced.
+
+
+Now the challenge how the business can tell the scenarios.because business team is not technically trained  people.
+
+they are very much into business process only.
+
+so now they can not write teh scenario technically.
+
+
+SO the common language between QA, dev,Business is only english language
+
+so cucumber provides a platform for the business to write the scenarios in english .
+
+But there is limitation in writing the scenarios.the limitation they have to use only Gerkin as language.
+
+Gerkin is a langugae which is specially developed for cucumber. it contains majorly 5 StepKeyWords
+
+
+* Given
+* when
+* Then
+* And
+* But
+
+For example there is story admin must login to the application via chrome browser and must validate his roles
+
+
+Given launch the application using chrome browser
+Then  enter the url of the application
+when application is launched enter cfredentials
+And validate there is no error message displayed
+But navigate to admin tab 
+And validate the user roles
+
+
+Architecture of Cucumber:
+
+
+Point to remember before we start devloping the BDD Cucumber framework:
+
+1.Analyse the requirement properly
+2.Develop the feature file
+3.Review it by the BA or business team
+4.Publish the file across to the team
+5.Develop the step definition 
+6.Dry Run at each component level
+7.Execute the scripts as E2E 
+8.Review with peers
+9.Demo with businees team
+10.Publish the results
+11.Make it available for business as play option
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
